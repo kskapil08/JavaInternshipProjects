@@ -4,7 +4,7 @@ public class GuessTheNum {
         Random Random_number= new Random();
         int right_guess=Random_number.nextInt(100);
         int turns=0;
-
+        // Taking Inputs from user
         Scanner scan =new Scanner(System.in);
         System.out.println("Guess a number between 1 to 100, You will have 10 turns!" );
         System.out.println("best of luck!");
